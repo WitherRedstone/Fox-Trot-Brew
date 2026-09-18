@@ -5,6 +5,10 @@ import com.github.tartaricacid.touhoulittlemaid.api.ILittleMaid;
 import com.github.tartaricacid.touhoulittlemaid.api.LittleMaidExtension;
 import com.github.tartaricacid.touhoulittlemaid.entity.task.TaskManager;
 
+/**
+ * 车万女仆模组兼容入口。
+ * 在模组加载时向女仆任务管理器注册自定义果盆任务。
+ */
 @LittleMaidExtension
 public class LittleMaidCompat implements ILittleMaid {
 
